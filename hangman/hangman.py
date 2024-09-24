@@ -45,7 +45,7 @@ class Hangman:
 
         print(f"The mystery word has {self.num_letters} characters")
 
-    def check_guess(self, guess):
+    def __check_guess(self, guess):
         '''
         Checks if the letter is in the word.
         If it is, it replaces the '_' in the word_guessed list with the letter.
@@ -94,7 +94,7 @@ class Hangman:
             else:
                 break
         self.list_of_guesses.append(guess)
-        self.check_guess(guess)
+        self.__check_guess(guess)
 
 def play_game(word_list):
 
