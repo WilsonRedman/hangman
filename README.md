@@ -10,3 +10,5 @@ milestone_2.py contains the code instructed in milestone 2.
 milestone_3.py contains the code instructed in milestone 3.
 
 milestone_4.py contains the base Hangman class code.
+
+milestone_5.py contains the final version of the hangman game.
