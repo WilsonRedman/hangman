@@ -8,3 +8,5 @@ This is an implementation of the Hangman game, where the computer thinks of a wo
 milestone_2.py contains the code instructed in milestone 2.
 
 milestone_3.py contains the code instructed in milestone 3.
+
+milestone_4.py contains the base Hangman class code.
